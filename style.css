@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+#gameboard{
+ display: flex;
+
+}
+
+.square{
+
+    width: 200px;
+    height: 200px;
+    background-color: rgb(227,227,199);
+}
+
+.beige{
+    background-color: rgb(227,227,199);
+
+}
+.brown{
+    background-color: rgb(129, 74, 8);
+
+}
+
+#info{
+height: 30px;
+}
+
+img{
+    width: 200px;
+}
+.highlight{
+
+    background-color: rgb(203,103,103);
+}
+
+.target{
+    border: solid 10px rgb(169,23,64);
+}
+.chess-piece{
+    height: 200px;
+    width: 200px;
+}
